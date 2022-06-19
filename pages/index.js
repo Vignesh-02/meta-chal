@@ -6,7 +6,7 @@ import Messages  from '../components/Messages';
 
 export default function Home() {
   
-  const { isAuthenticated } =useMoralis();
+  const { isAuthenticated,logout } =useMoralis();
 
 
   if( !isAuthenticated ) return <Login />
@@ -22,7 +22,7 @@ export default function Home() {
 
       <h1>Welcome to the meta app</h1>
        
-
+      <></>
         <div className='max-w-screen-2xl mx-auto'>
           {/* Header */}
           <Header />

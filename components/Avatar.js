@@ -4,7 +4,7 @@ import Image from "next/image"
 
 function Avatar({username, logoutOnPress}) {
 
-    const {user,logut} = useMoralis();
+    const {user,logout} = useMoralis();
 
   return (
     
