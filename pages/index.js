@@ -36,3 +36,6 @@ export default function Home() {
     </div>
   )
 }
+
+
+//Sun 19 Jun, 11:49 PM changed the next JS  env variables in vercel for production
