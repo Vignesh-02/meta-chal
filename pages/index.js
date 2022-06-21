@@ -39,3 +39,10 @@ export default function Home() {
 
 
 //Sun 19 Jun, 11:49 PM changed the next JS  env variables in vercel for production
+
+// error received - Failed network error for wrong url name
+// The error occured because the env variables in vercel weren't updated 
+// with the new moralis server details.
+
+// If you encounter this error again, try refresing the moralis server 
+// and make sure the credentials entered were correct.

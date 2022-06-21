@@ -36,12 +36,13 @@ function SendMessage({ endOfMessagesRef }) {
      w-11/12 px-3 py-3 max-w-3xl  shadow-xl rounded-full border-4 border-blue-400">
       <input className="flex-grow outline-none  bg-transparent text-white 
        placeholder-gray-500 pr-3"
+       value={message}
        type="text"
        onChange={e => setMessage(e.target.value)}
        placeholder={`Enter a Message ${user.getUsername()}....`}
        />
        <button 
-       type="submit"
+       className="font-bold text-pink-300"
        onClick={sendMessage}
        >
          Send
